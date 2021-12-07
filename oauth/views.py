@@ -5,11 +5,10 @@ import requests
 import os
 
 
-HASHED_CLIENT_CREDENTIALS = os.environ["bDlSNEZ1NXF0YUhMMW5oZlFoV2d2SzBFb0hFd0JqQm46U1JrVkRkOFJmZ1dEbXpqYzFqTVcxQXRXbmhKREl6eHc="]
+HASHED_CLIENT_CREDENTIALS = os.environ["HASHED_CONTA_AZUL_CLIENT_CREDENTIALS"]
+CLIENT_ID = os.environ["CONTA_AZUL_CLIENT_ID"]
 REDIRECT_URI = urllib.parse.quote_plus("http://localhost:8000/auth/get-token")
-CLIENT_ID = "l9R4Fu5qtaHL1nhfQhWgvK0EoHEwBjBn"
-STATE = "faeiuhfekljefkljfdhjksghjka"
-
+STATE = "random_string"
 
 
 # Create your views here.
