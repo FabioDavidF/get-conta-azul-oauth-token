@@ -9,10 +9,9 @@ First of all, if you haven't done this, before getting your tokens, you need to 
 After your application is created, you will need to set the following environment variables [How to set up environment variables](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html):
 * **CONTA_AZUL_CLIENT_ID**: The value of this environment variable should match you application's client_id
 
-* **HASHED_CONTA_AZUL_CLIENT_CREDENTIALS**: This one is a bit trickier to set up right, but shouldn't take more than 2 minutes. What you need to do is to head over to 
-https://www.base64encode.org/ and encode to base 64 the string made of your client id and secret separated by a colon: {client_id}:{client_secret}.   
-Example: QsaiBIwQWJBcHTHHcQza:MhRFOTswQlzwJUzfOATW is               UXNhaUJJd1FXSkJjSFRISGNRemE6TWhSRk9Uc3dRbHp3SlV6Zk9BVFc= once encoded.  
-The encoded string should be the value of this environment variable
+* **CONTA_AZUL_CLIENT_SECRET**: The value of this environment variable should match you application's client_secret
+
+*Note: The server already does the needed b64 encoding, the values should be saved as given by Conta Azul's application*
 
 ### **Installing Python and Django (Ignore if already installed in your machine)**
 As descbribed, the server is built with Django, so you will need to have Python and it's dependencies installed to run the server.  
