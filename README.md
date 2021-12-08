@@ -14,7 +14,7 @@ https://www.base64encode.org/ and encode to base 64 the string made of your clie
 Example: QsaiBIwQWJBcHTHHcQza:MhRFOTswQlzwJUzfOATW is               UXNhaUJJd1FXSkJjSFRISGNRemE6TWhSRk9Uc3dRbHp3SlV6Zk9BVFc= once encoded.  
 The encoded string should be the value of this environment variable
 
-### **Installing python and Django (Ignore if already installed in your machine)**
+### **Installing Python and Django (Ignore if already installed in your machine)**
 As descbribed, the server is built with Django, so you will need to have Python and it's dependencies installed to run the server.  
 The simplest way to do this is to install python, open a terminal in the project's root folder, and run:  
  ```pip install requirements.txt```  
